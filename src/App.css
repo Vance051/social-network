@@ -1,0 +1,36 @@
+.App-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+
+    grid-template-rows: 60px 1fr 60px;
+    grid-auto-columns: 2fr 10fr;
+    grid-template-areas: 'header  header'
+                        'nav content'
+                        'nav footer';
+}
+
+
+.header {
+    grid-area: header;
+    background: #561;
+}
+
+.header img {
+    width: 50px;
+}
+
+.nav {
+    grid-area: nav;
+    background: #454;
+}
+
+.content {
+    grid-area: content;
+    background: red;
+}
+
+.footer {
+    grid-area: footer;
+    background:  #666;
+}
