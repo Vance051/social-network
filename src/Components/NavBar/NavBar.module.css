@@ -2,3 +2,10 @@
     grid-area: nav;
     background: #454;
 }
+.item  {
+    color: #f5edcd;
+    background: #d93a3a;
+}
+.active {
+color: blue;
+}
