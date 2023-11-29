@@ -10,8 +10,8 @@ const Profile = () => {
             <div>
                 My posts
                 <div>New Post</div>
-                <div>POsts1</div>
-                <div>POsts2</div>
+                <div>Post 1</div>
+                <div>Post 2</div>
             </div>
         </div>
     );
