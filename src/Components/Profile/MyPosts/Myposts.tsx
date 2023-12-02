@@ -15,7 +15,7 @@ const MyPosts = () => {
                 message={'My first post'}
             likesCount={5}
             />
-            <Post message={'coool'}
+            <Post message={'cool'}
             likesCount={6}/>
             <Post message={'its so easy'}
             likesCount={8}/>
