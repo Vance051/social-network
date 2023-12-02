@@ -3,12 +3,14 @@
     background: #454;
 }
 
-.item {
-    color: #f5edcd;
+.item  a{
+    color: white;
+    background: #1e070d;
+    text-decoration: none;
 }
 
-.active {
-    color: blue;
-    background: #d93a3a;
+.item a.active {
+    color: gold;
+    background: #ec0303;
 
 }
