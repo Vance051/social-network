@@ -15,14 +15,14 @@ function App() {
                 <Header/>
                 <NavBar/>
                 <div className={'app-wrapper-content'}>
-                    <Route
+                    <Route exact
                         path={'/profile'}
                         render={() => <Profile/>}/>
-                    <Route path={'/dialogs'}
+                    <Route exact path={'/dialogs/*'}
                            render={() => <Dialogs/>}/>
-                    <Route path={'/news'}
+                    <Route exact path={'/news'}
                            render={() => <News/>}/>
-                    <Route path={'/musics'}
+                    <Route exact path={'/musics'}
                            render={() => <Musics/>}/>
 
                 </div>
